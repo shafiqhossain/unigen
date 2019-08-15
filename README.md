@@ -1,2 +1,2 @@
-# unigen
+# Unigen
 Generate unique sequence number
