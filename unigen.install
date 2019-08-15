@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Unigen installation.
+ */
+
+
+/**
+ * Implements hook_uninstall().
+ */
+function unigen_uninstall() {
+  \Drupal::configFactory()->getEditable('unigen.settings')->delete();
+  \Drupal::configFactory()->getEditable('unigen.unique_sequence.general')->delete();
+  \Drupal::configFactory()->getEditable('rest.resource.unique_sequence_resource')->delete();
+}
+	

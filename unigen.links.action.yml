@@ -1,0 +1,6 @@
+entity.unique_sequence.add_form:
+  route_name: entity.unique_sequence.add_form
+  title: 'Add Unique sequence'
+  appears_on:
+    - entity.unique_sequence.collection
+

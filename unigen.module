@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Contains unigen.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function unigen_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the unigen module.
+    case 'help.page.unigen':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Generate unique sequence with prefix') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+

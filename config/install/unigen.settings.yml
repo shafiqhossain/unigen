@@ -1,0 +1,7 @@
+unigen_entity_types: 'node'
+restapi_credentials: ''
+size: 60
+title: 'Sequence'
+generate_when: 1
+allow_manual: 1
+show_button: 0

@@ -1,0 +1,6 @@
+services:
+  unigen.helper:
+    class: Drupal\unigen\Services\UniqueSequenceGenerator
+    arguments: ['@entity.query', '@entity_type.manager', '@lock']
+    tags:
+      - { name: unigen_helper }

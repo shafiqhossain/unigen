@@ -1,0 +1,4 @@
+administer unigen:
+  title: 'Administer Unique Sequence Generator'
+  description: 'Allow to access the administration form to configure unique sequences.'
+  restrict access: true

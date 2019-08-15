@@ -1,0 +1,6 @@
+unigen_style:
+  version: VERSION
+  css:
+    theme:
+      unigen.css: {}
+

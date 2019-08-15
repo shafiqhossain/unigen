@@ -1,0 +1,73 @@
+unigen.unique_sequence.*:
+  type: config_entity
+  label: 'Unique sequence config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    prefix:
+      type: string
+      label: 'Prefix'
+    sequence_no:
+      type: integer
+      label: 'Sequence number'
+
+unigen.settings:
+  type: config_object
+  label: 'Unigen settings'
+  mapping:
+    unigen_entity_types:
+      type: sequence
+      label: 'Entity Types'
+      sequence:
+        type: string
+        label: 'Entity Type'
+    restapi_credentials:
+      type: string
+      label: 'RestAPI Credentials'
+
+field.field_settings.unique_sequence:
+  type: mapping
+  label: 'Unique sequence field settings'
+  mapping:
+    sequence_id:
+      type: string
+      label: 'Sequence Type'
+
+field.widget.settings.unique_sequence_widget:
+  type: mapping
+  label: 'Unique sequence widget settings'
+  mapping:
+    size:
+      type: integer
+      label: 'Size'
+    title:
+      type: string
+      label: 'Title'
+    generate_when:
+      type: integer
+      label: 'Generate sequence, only when empty'
+    allow_manual:
+      type: integer
+      label: 'Allow manual sequence entry'
+    show_button:
+      type: integer
+      label: 'Show generate button'
+
+field.formatter.settings.unique_sequence_formatter:
+  type: mapping
+  label: 'Unique sequence formatter settings'
+  mapping:
+    display_type:
+      type: int
+      label: 'Display type'
+    display_update_time:
+      type: int
+      label: 'Display last sequence update time'
+
+

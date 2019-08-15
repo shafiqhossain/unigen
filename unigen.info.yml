@@ -1,0 +1,8 @@
+name: 'Unique Sequence Generator'
+type: module
+description: 'Generate unique sequence with prefix'
+core: 8.x
+package: 'Custom'
+
+dependencies:
+  - field

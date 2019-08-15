@@ -1,0 +1,16 @@
+
+# Unique sequence menu items definition
+entity.unique_sequence.collection:
+  title: 'Unique sequence'
+  route_name: entity.unique_sequence.collection
+  description: 'List Unique sequence (bundles)'
+  parent: system.admin_structure
+  weight: 99
+
+# Settings menu
+unigen.menu.top:
+  route_name: unigen.route.settings
+  title: 'Unique sequence settings'
+  description: 'Unique sequence settings'
+  parent: system.admin_config_ui
+  weight: 100

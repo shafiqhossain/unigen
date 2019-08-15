@@ -1,0 +1,9 @@
+id: unique_sequence_resource
+plugin_id: unique_sequence_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - basic_auth
