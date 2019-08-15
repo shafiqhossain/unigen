@@ -8,6 +8,8 @@ This module provides three options to generate the sequence number:
 2. A Field type
 3. Rest API
 
+Unique sequence number can be added a field and you can customize the display of it, whether to display number only or with/without prefix and whether to display last update time.
+
 # Installation
 Install the module using Drupal standard procedure
 
